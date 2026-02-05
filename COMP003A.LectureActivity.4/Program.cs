@@ -17,10 +17,18 @@ class Program
         
           
         
-        
-        
-            
-            
+        //Section B:
+
+        int attempt = 1;
+        do
+        {
+            Console.WriteLine($"Attemp {attempt}");
+            attempt++;
+        }
+        while (attempt <= 3);
+
+
+
     }
     
 }
