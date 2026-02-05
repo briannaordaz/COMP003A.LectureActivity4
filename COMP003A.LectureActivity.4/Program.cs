@@ -34,8 +34,29 @@ class Program
         {
             Console.WriteLine($"Step {counter}");
         }
-        
 
+        
+        //Section D:
+        
+        int number = 0;
+        while (number <= 6)
+        {
+            number++;
+            if (number == 4)
+            {
+                continue; 
+                //if the number equals 4, "continue" will skip the rest of the code 
+            }
+             if (number == 6)
+            {
+                break; // the break is used to STOP/exit the loop
+            }
+             Console.WriteLine(number);
+        }
+
+        
+        
+       
     }
     
 }
