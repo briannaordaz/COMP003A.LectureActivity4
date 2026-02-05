@@ -27,7 +27,14 @@ class Program
         }
         while (attempt <= 3);
 
-
+        
+        //Section C:
+        
+        for (int counter = 1; counter <= 4; counter++)
+        {
+            Console.WriteLine($"Step {counter}");
+        }
+        
 
     }
     
